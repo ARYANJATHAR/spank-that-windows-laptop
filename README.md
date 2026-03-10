@@ -1,4 +1,5 @@
 ## Laptop Spank Sound (Mic Triggered)
+Note: Many modern Macs have built‑in accelerometers that can be used to trigger fun “spank your laptop” scripts based on motion. My Windows laptop doesn’t expose an accelerometer (or any usable motion sensor), so this project takes a different approach: it listens to the microphone for short, loud impact sounds (taps/slaps/knocks) and triggers the audio purely from sound, not from motion.
 
 Simple Python script that listens to your laptop microphone for sudden impact (a tap, slap, or desk knock) and plays a sound effect (built‑in tone or your own audio file).
 
@@ -57,7 +58,4 @@ List available sounds and local audio files:
 python spank_sound_mic.py --list-sounds
 ```
 
-### Project idea / name
-
-Suggested GitHub repository name: **`laptop-spank-sound`**.
 
